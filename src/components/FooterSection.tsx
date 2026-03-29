@@ -2,7 +2,7 @@
 // ABOUTME: Contains "BEGIN THE TRANSFORMATION" button, nav links, and legal text
 
 import Image from "next/image";
-import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
+import { RunbitLogoIcon, RunbitWordmark } from "@/components/icons";
 
 const navLinks = ["HOME", "ABOUT", "SERVICES", "BLOG"];
 
@@ -20,8 +20,8 @@ export function FooterSection() {
 
       <div className="relative z-10 mx-5 my-5 rounded-2xl backdrop-blur-[40px] bg-white/[0.06] border border-white/[0.1] py-16 px-8">
         <div className="flex flex-col items-center">
-          <CiridaeLogoIcon className="w-[80px] h-auto text-white" />
-          <CiridaeWordmark className="w-[120px] h-auto text-white mt-3" />
+          <RunbitLogoIcon className="w-[80px] h-auto text-white" />
+          <RunbitWordmark className="w-[120px] h-auto text-white mt-3" />
         </div>
 
         <div className="flex items-center justify-between max-w-[900px] mx-auto mt-16 w-full">

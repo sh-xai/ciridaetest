@@ -25,7 +25,7 @@ const logos = [
 
 export function TeamSection({ className }: TeamSectionProps) {
   return (
-    <section className={cn("py-[120px] bg-ciridae-black", className)}>
+    <section className={cn("py-[120px] bg-runbit-black", className)}>
       <div className="max-w-[1440px] mx-auto px-5">
         <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-white/50 text-center mb-8">
           OUR TEAM

@@ -3,10 +3,10 @@
 
 import { Nav } from "@/components/Nav";
 import { FooterSection } from "@/components/FooterSection";
-import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
+import { RunbitLogoIcon, RunbitWordmark } from "@/components/icons";
 
 export const metadata = {
-  title: "Terms and Conditions — Ciridae",
+  title: "Terms and Conditions — Runbit Labs",
 };
 
 export default function TermsAndConditionsPage() {
@@ -15,8 +15,8 @@ export default function TermsAndConditionsPage() {
       <Nav variant="light" />
 
       <div className="flex flex-col items-center pt-8 pb-4">
-        <CiridaeLogoIcon className="w-16 h-auto text-black" />
-        <CiridaeWordmark className="w-24 h-auto text-black mt-2" />
+        <RunbitLogoIcon className="w-16 h-auto text-black" />
+        <RunbitWordmark className="w-24 h-auto text-black mt-2" />
       </div>
 
       <article className="max-w-[800px] mx-auto px-5 pt-20 pb-32">
@@ -30,8 +30,8 @@ export default function TermsAndConditionsPage() {
 
         <div className="mt-8 space-y-6 font-body text-[16px] text-black/70 leading-[1.8]">
           <p>
-            Welcome to the website of Ciridae, Ltd. and its subsidiaries and
-            affiliates, collectively, &ldquo;Ciridae,&rdquo; &ldquo;we,&rdquo;
+            Welcome to the website of Runbit Labs, Ltd. and its subsidiaries and
+            affiliates, collectively, &ldquo;Runbit Labs,&rdquo; &ldquo;we,&rdquo;
             or &ldquo;us.&rdquo; By accessing or using our website(s)
             (&ldquo;Site&rdquo;), you agree to be bound by these Terms and
             Conditions (&ldquo;Terms&rdquo;). If you do not agree with these
@@ -70,7 +70,7 @@ export default function TermsAndConditionsPage() {
             The Site and its entire contents, features, and functionality,
             including but not limited to all information, software, text,
             displays, images, video, audio, design, selection, and arrangement
-            thereof, are owned by Ciridae, its licensors, or other providers of
+            thereof, are owned by Runbit Labs, its licensors, or other providers of
             such material and are protected by United States and international
             copyright, trademark, patent, trade secret, and other intellectual
             property or proprietary rights laws.
@@ -79,13 +79,13 @@ export default function TermsAndConditionsPage() {
             You may not reproduce, distribute, modify, create derivative works
             of, publicly display, publicly perform, republish, download, store,
             or transmit any of the material on our Site without the prior written
-            consent of Ciridae, except as permitted by applicable law.
+            consent of Runbit Labs, except as permitted by applicable law.
           </p>
 
           <h2 className="font-sans text-[24px] uppercase text-black mt-12 mb-4">
             Contact Us
           </h2>
-          <p>Contact: info@ciridae.com</p>
+          <p>Contact: info@runbitlabs.com</p>
           <p>Address: 1004A O&apos;Reilly Ave, San Francisco, CA 94129</p>
           <p>Phone: +1 610 608 9634</p>
         </div>

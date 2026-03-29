@@ -11,7 +11,7 @@ interface TestimonialsSectionProps {
 const testimonials = [
   {
     quote:
-      "Ciridae shipped high-impact solutions quickly and helped architect our long-term AI strategy. They\u2019re simply the best; true partners every step of the way.",
+      "Runbit Labs shipped high-impact solutions quickly and helped architect our long-term AI strategy. They\u2019re simply the best; true partners every step of the way.",
     name: "Francesco Boccardo",
     title: "HEAD OF GEN AI AT BV TECH",
     logo: "/images/logos/bvtech.png",
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     quote:
-      "Ciridae was so good we wanted them on our cap table. In just one month, Ciridae quickly understood our business, identified the biggest generative AI opportunities and risks, and gave us a clear path toward becoming an AI-first company.",
+      "Runbit Labs was so good we wanted them on our cap table. In just one month, Runbit Labs quickly understood our business, identified the biggest generative AI opportunities and risks, and gave us a clear path toward becoming an AI-first company.",
     name: "Josh Albom",
     title: "CEO OF FACTUA",
     logo: "/images/logos/factua.png",
@@ -31,7 +31,7 @@ const testimonials = [
 
 export function TestimonialsSection({ className }: TestimonialsSectionProps) {
   return (
-    <section className={cn("py-[120px] bg-ciridae-black", className)}>
+    <section className={cn("py-[120px] bg-runbit-black", className)}>
       <div className="max-w-[1200px] mx-auto px-6">
         <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-white/50 text-center mb-4">
           TESTIMONIALS

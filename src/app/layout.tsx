@@ -1,5 +1,5 @@
-// ABOUTME: Root layout with Ciridae fonts (Pragmatica Cond, Pragmatica, Roboto Mono)
-// ABOUTME: and site metadata matching ciridae.com
+// ABOUTME: Root layout with Runbit Labs fonts (Pragmatica Cond, Pragmatica, Roboto Mono)
+// ABOUTME: and site metadata matching runbitlabs.com
 
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
@@ -25,17 +25,17 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ciridae — The New Intelligence",
-  description: "We are Ciridae. The AI Transformation Firm",
+  title: "Runbit Labs — The New Intelligence",
+  description: "We are Runbit Labs. The AI Transformation Firm",
   openGraph: {
-    title: "Ciridae — The New Intelligence",
-    description: "We are Ciridae. The AI Transformation Firm",
+    title: "Runbit Labs — The New Intelligence",
+    description: "We are Runbit Labs. The AI Transformation Firm",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ciridae — The New Intelligence",
-    description: "We are Ciridae. The AI Transformation Firm",
+    title: "Runbit Labs — The New Intelligence",
+    description: "We are Runbit Labs. The AI Transformation Firm",
   },
 };
 
@@ -49,7 +49,7 @@ export default function RootLayout({
       lang="en"
       className={`${pragmaticaCond.variable} ${pragmatica.variable} ${robotoMono.variable} lenis`}
     >
-      <body className="bg-ciridae-black text-white antialiased">
+      <body className="bg-runbit-black text-white antialiased">
         {children}
       </body>
     </html>

@@ -4,7 +4,7 @@
 "use client";
 
 import { useRef, useEffect } from "react";
-import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
+import { RunbitLogoIcon, RunbitWordmark } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
 interface HeroSectionProps {
@@ -50,8 +50,8 @@ export function HeroSection({ className }: HeroSectionProps) {
 
           {/* Center logo */}
           <div className="flex flex-col items-center gap-4">
-            <CiridaeLogoIcon className="w-[140px] h-auto text-white" />
-            <CiridaeWordmark className="w-[140px] h-auto text-white mt-2" />
+            <RunbitLogoIcon className="w-[140px] h-auto text-white" />
+            <RunbitWordmark className="w-[140px] h-auto text-white mt-2" />
           </div>
 
           {/* Right tagline */}

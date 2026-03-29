@@ -1,4 +1,4 @@
-// ABOUTME: Scroll-driven "Ciridae builds" section with sticky container and text reveal
+// ABOUTME: Scroll-driven "Runbit Labs builds" section with sticky container and text reveal
 // ABOUTME: Shows main value proposition over hero background image with floating particles
 
 import Image from "next/image";
@@ -80,7 +80,7 @@ export function BuildsSection({ className }: BuildsSectionProps) {
         <div className="relative z-[2] h-full flex flex-col items-center justify-center px-5">
           <div className="flex flex-col items-center text-center gap-10 max-w-[900px]">
             <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-white/50">
-              Ciridae builds
+              Runbit Labs builds
             </p>
 
             <h2 className="font-sans text-[62px] font-normal text-white/60 uppercase leading-[1.05] tracking-[0.01em]">

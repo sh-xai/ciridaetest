@@ -1,4 +1,4 @@
-// ABOUTME: Main page assembling all sections of the ciridae.com clone
+// ABOUTME: Main page assembling all sections of the runbitlabs.com clone
 // ABOUTME: Sections ordered: Hero, Builds, Services, Team, Blog, Testimonials, Security, Careers, Footer
 
 import { Nav } from "@/components/Nav";

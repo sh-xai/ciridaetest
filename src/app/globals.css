@@ -2,18 +2,18 @@
 @import "tw-animate-css";
 
 /* ============================================
-   Ciridae Design Tokens
+   Runbit Labs Design Tokens
    ============================================ */
 
 @theme inline {
   /* Colors */
-  --color-ciridae-black: #0b0b0b;
-  --color-ciridae-dark: #272a2a;
-  --color-ciridae-white: #ffffff;
-  --color-ciridae-gray: rgba(255, 255, 255, 0.5);
-  --color-ciridae-muted: rgba(255, 255, 255, 0.3);
-  --color-ciridae-copper: #b87a4b;
-  --color-ciridae-copper-light: #c4946a;
+  --color-runbit-black: #0b0b0b;
+  --color-runbit-dark: #272a2a;
+  --color-runbit-white: #ffffff;
+  --color-runbit-gray: rgba(255, 255, 255, 0.5);
+  --color-runbit-muted: rgba(255, 255, 255, 0.3);
+  --color-runbit-copper: #b87a4b;
+  --color-runbit-copper-light: #c4946a;
 
   /* Typography */
   --font-sans: var(--font-pragmatica-cond), Arial, sans-serif;
@@ -50,7 +50,7 @@
   }
 
   body {
-    background-color: var(--color-ciridae-black);
+    background-color: var(--color-runbit-black);
     color: white;
     overflow-x: hidden;
   }
@@ -141,7 +141,7 @@
   }
 
   /* Container */
-  .container-ciridae {
+  .container-runbit {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;

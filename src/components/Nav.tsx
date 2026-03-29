@@ -3,7 +3,7 @@
 
 "use client";
 
-import { CiridaeLogoIcon, MenuIcon } from "@/components/icons";
+import { RunbitLogoIcon, MenuIcon } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
 interface NavProps {
@@ -33,7 +33,7 @@ export function Nav({ className, variant = "dark" }: NavProps) {
         </a>
 
         <a href="/" className="justify-self-center">
-          <CiridaeLogoIcon className={cn("w-8 h-8", text)} />
+          <RunbitLogoIcon className={cn("w-8 h-8", text)} />
         </a>
 
         <button

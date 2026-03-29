@@ -3,12 +3,12 @@
 
 import Link from "next/link";
 import type { Metadata } from "next";
-import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
+import { RunbitLogoIcon, RunbitWordmark } from "@/components/icons";
 import { Nav } from "@/components/Nav";
 import { FooterSection } from "@/components/FooterSection";
 import { articles } from "@/lib/blog-data";
 
-export const metadata: Metadata = { title: "Blog — Ciridae" };
+export const metadata: Metadata = { title: "Blog — Runbit Labs" };
 
 export default function BlogPage() {
   return (
@@ -17,8 +17,8 @@ export default function BlogPage() {
 
       <main className="pt-32 pb-24 px-5">
         <div className="flex flex-col items-center">
-          <CiridaeLogoIcon className="w-[60px] h-auto text-black" />
-          <CiridaeWordmark className="w-[100px] h-auto text-black mt-3" />
+          <RunbitLogoIcon className="w-[60px] h-auto text-black" />
+          <RunbitWordmark className="w-[100px] h-auto text-black mt-3" />
         </div>
 
         <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-black/50 text-center mt-12">

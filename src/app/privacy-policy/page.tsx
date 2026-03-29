@@ -3,10 +3,10 @@
 
 import { Nav } from "@/components/Nav";
 import { FooterSection } from "@/components/FooterSection";
-import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
+import { RunbitLogoIcon, RunbitWordmark } from "@/components/icons";
 
 export const metadata = {
-  title: "Privacy Policy — Ciridae",
+  title: "Privacy Policy — Runbit Labs",
 };
 
 export default function PrivacyPolicyPage() {
@@ -15,8 +15,8 @@ export default function PrivacyPolicyPage() {
       <Nav variant="light" />
 
       <div className="flex flex-col items-center pt-8 pb-4">
-        <CiridaeLogoIcon className="w-16 h-auto text-black" />
-        <CiridaeWordmark className="w-24 h-auto text-black mt-2" />
+        <RunbitLogoIcon className="w-16 h-auto text-black" />
+        <RunbitWordmark className="w-24 h-auto text-black mt-2" />
       </div>
 
       <article className="max-w-[800px] mx-auto px-5 pt-20 pb-32">
@@ -30,8 +30,8 @@ export default function PrivacyPolicyPage() {
 
         <div className="mt-8 space-y-6 font-body text-[16px] text-black/70 leading-[1.8]">
           <p>
-            Welcome to the website of Ciridae, Ltd. and its subsidiaries and
-            affiliates, collectively, &ldquo;Ciridae,&rdquo; &ldquo;we,&rdquo;
+            Welcome to the website of Runbit Labs, Ltd. and its subsidiaries and
+            affiliates, collectively, &ldquo;Runbit Labs,&rdquo; &ldquo;we,&rdquo;
             or &ldquo;us.&rdquo; By using our website(s) (&ldquo;Site&rdquo;),
             you consent to this Privacy Policy (&ldquo;Policy&rdquo;). If you do
             not agree with this Policy, you may not use our Site.
@@ -104,7 +104,7 @@ export default function PrivacyPolicyPage() {
           <h2 className="font-sans text-[24px] uppercase text-black mt-12 mb-4">
             Contact Us
           </h2>
-          <p>Contact: info@ciridae.com</p>
+          <p>Contact: info@runbitlabs.com</p>
           <p>Address: 1004A O&apos;Reilly Ave, San Francisco, CA 94129</p>
           <p>Phone: +1 610 608 9634</p>
         </div>

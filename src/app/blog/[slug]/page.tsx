@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
+import { RunbitLogoIcon, RunbitWordmark } from "@/components/icons";
 import { Nav } from "@/components/Nav";
 import { FooterSection } from "@/components/FooterSection";
 import { articles, getArticle } from "@/lib/blog-data";
@@ -21,11 +21,11 @@ export async function generateMetadata(props: {
   const article = getArticle(slug);
 
   if (!article) {
-    return { title: "Not Found — Ciridae" };
+    return { title: "Not Found — Runbit Labs" };
   }
 
   return {
-    title: `${article.title} — Ciridae`,
+    title: `${article.title} — Runbit Labs`,
     description: article.excerpt,
   };
 }
@@ -50,8 +50,8 @@ export default async function BlogArticlePage(props: {
 
       <main className="pt-32 pb-24 px-5">
         <div className="flex flex-col items-center">
-          <CiridaeLogoIcon className="w-[60px] h-auto text-black" />
-          <CiridaeWordmark className="w-[100px] h-auto text-black mt-3" />
+          <RunbitLogoIcon className="w-[60px] h-auto text-black" />
+          <RunbitWordmark className="w-[100px] h-auto text-black mt-3" />
         </div>
 
         <div className="flex justify-center mt-10">

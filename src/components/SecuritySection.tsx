@@ -33,7 +33,7 @@ const features = [
 
 export function SecuritySection({ className }: SecuritySectionProps) {
   return (
-    <section className={cn("py-[120px] bg-ciridae-black", className)}>
+    <section className={cn("py-[120px] bg-runbit-black", className)}>
       <div className="mx-auto max-w-7xl px-6">
         <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-white/50 text-center mb-4">
           SECURITY

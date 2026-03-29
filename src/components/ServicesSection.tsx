@@ -2,7 +2,7 @@
 // ABOUTME: Cards for Workflow Redesign, System Construction, and Command and Control
 
 import Image from "next/image";
-import { CiridaeLogoIcon } from "@/components/icons";
+import { RunbitLogoIcon } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
 interface ServicesSectionProps {
@@ -58,7 +58,7 @@ function ServiceCard({
       </h3>
 
       <div className="flex-1 flex items-center justify-start">
-        <CiridaeLogoIcon className="w-[160px] h-auto text-white/80" />
+        <RunbitLogoIcon className="w-[160px] h-auto text-white/80" />
       </div>
 
       <p className="text-[15px] text-white/70 leading-[1.6] mt-auto">

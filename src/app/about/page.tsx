@@ -1,16 +1,16 @@
-// ABOUTME: About page for ciridae.com clone with hero, story, leadership, values, and numbers sections
+// ABOUTME: About page for runbitlabs.com clone with hero, story, leadership, values, and numbers sections
 // ABOUTME: Dark theme layout with glassmorphic cards and centered typography
 
 import type { Metadata } from "next";
 import { Nav } from "@/components/Nav";
 import { FooterSection } from "@/components/FooterSection";
 import { CareersSection } from "@/components/CareersSection";
-import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
+import { RunbitLogoIcon, RunbitWordmark } from "@/components/icons";
 
 export const metadata: Metadata = {
-  title: "About — Ciridae",
+  title: "About — Runbit Labs",
   description:
-    "Ciridae is an AI partner for companies ready to move fast and build long-term.",
+    "Runbit Labs is an AI partner for companies ready to move fast and build long-term.",
 };
 
 const founders = [
@@ -18,17 +18,17 @@ const founders = [
     name: "Jack Soslow",
     title: "Co-Founder & CEO",
     paragraphs: [
-      "Jack brings a rare combination of technical depth and venture insight to Ciridae. As a Partner at Andreessen Horowitz (a16z), he led AI investments for the Games team, closing 32 deals in just three years. Prior to that, he was a Data Scientist at Meta, where he helped build the command center for Oculus.",
+      "Jack brings a rare combination of technical depth and venture insight to Runbit Labs. As a Partner at Andreessen Horowitz (a16z), he led AI investments for the Games team, closing 32 deals in just three years. Prior to that, he was a Data Scientist at Meta, where he helped build the command center for Oculus.",
       "He graduated as Valedictorian from the University of Pennsylvania, where he also founded the Data Science Club and was an All-Ivy football player.",
-      "At Ciridae, he guides strategy, partnerships, and product vision — with a focus on helping teams turn ambitious ideas into real-world AI systems that scale.",
+      "At Runbit Labs, he guides strategy, partnerships, and product vision — with a focus on helping teams turn ambitious ideas into real-world AI systems that scale.",
     ],
   },
   {
     name: "Jack Weissenberger",
     title: "Co-Founder & CTO",
     paragraphs: [
-      "Jack Weissenberger brings a unique blend of research depth and production judgment to Ciridae. At Tenyx (acquired by Salesforce), he built the company\u2019s ML systems end-to-end to automate contact-center operations. After the acquisition, he became one of Salesforce\u2019s youngest Principal Machine Learning Engineer. Previously at Apple, he led the company\u2019s first generative-AI deployment for customer support.",
-      "At Ciridae, he drives end-to-end AI transformation\u2014bridging strategy, data foundations, and production engineering to deliver reliable, scalable systems in the real world.",
+      "Jack Weissenberger brings a unique blend of research depth and production judgment to Runbit Labs. At Tenyx (acquired by Salesforce), he built the company\u2019s ML systems end-to-end to automate contact-center operations. After the acquisition, he became one of Salesforce\u2019s youngest Principal Machine Learning Engineer. Previously at Apple, he led the company\u2019s first generative-AI deployment for customer support.",
+      "At Runbit Labs, he drives end-to-end AI transformation\u2014bridging strategy, data foundations, and production engineering to deliver reliable, scalable systems in the real world.",
     ],
   },
 ];
@@ -78,8 +78,8 @@ export default function AboutPage() {
             <span className="font-mono text-[11px] uppercase tracking-[0.1em] text-white/50">
               THE NEW INTELLIGENCE
             </span>
-            <CiridaeLogoIcon className="w-12 h-12 text-white" />
-            <CiridaeWordmark className="w-[100px] h-auto text-white" />
+            <RunbitLogoIcon className="w-12 h-12 text-white" />
+            <RunbitWordmark className="w-[100px] h-auto text-white" />
             <span className="font-mono text-[11px] uppercase tracking-[0.1em] text-white/50">
               THE NEXT FRONTIER
             </span>
@@ -90,7 +90,7 @@ export default function AboutPage() {
           </p>
 
           <h1 className="font-sans text-[62px] uppercase text-white leading-[1.05] text-center max-w-[1100px] mx-auto">
-            CIRIDAE IS AN AI PARTNER FOR COMPANIES READY TO MOVE FAST AND BUILD
+            RUNBIT LABS IS AN AI PARTNER FOR COMPANIES READY TO MOVE FAST AND BUILD
             LONG-TERM.
           </h1>
         </section>
@@ -107,7 +107,7 @@ export default function AboutPage() {
 
           <div className="max-w-[700px] mx-auto space-y-6">
             <p className="font-body text-[15px] text-white/50 leading-[1.8]">
-              We started Ciridae after years of building AI systems inside
+              We started Runbit Labs after years of building AI systems inside
               large, complex organizations where ambition often hit red tape,
               and great ideas got lost in PowerPoints.
             </p>
@@ -118,7 +118,7 @@ export default function AboutPage() {
               quality or depth.
             </p>
             <p className="font-body text-[15px] text-white/50 leading-[1.8]">
-              At Ciridae, we blend deep technical expertise with sharp product
+              At Runbit Labs, we blend deep technical expertise with sharp product
               thinking. We don&apos;t just prototype; we solve. We don&apos;t
               just advise; we build.
             </p>
@@ -197,7 +197,7 @@ export default function AboutPage() {
         {/* Numbers Section */}
         <section className="py-[120px] px-6">
           <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-white/50 text-center mb-4">
-            Ciridae in numbers
+            Runbit Labs in numbers
           </p>
           <h2 className="font-sans text-[32px] uppercase text-white/60 text-center max-w-[800px] mx-auto">
             Numbers that reflect the scale, reach, and results of our work.

@@ -12,7 +12,7 @@ const articles = [
   {
     image: "/images/blog/blog-01.webp",
     category: "News",
-    title: "Introducing the Ciridae",
+    title: "Introducing Runbit Labs",
     description:
       "The AI revolution demands transformation, not optimization-become intelligent or become history.",
     href: "#",
@@ -37,7 +37,7 @@ const articles = [
 
 export function BlogSection({ className }: BlogSectionProps) {
   return (
-    <section className={cn("py-[120px] bg-ciridae-black", className)}>
+    <section className={cn("py-[120px] bg-runbit-black", className)}>
       <div className="max-w-[1440px] mx-auto px-5">
         <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-white/50 text-center mb-4">
           BLOG

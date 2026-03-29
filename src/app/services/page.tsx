@@ -1,4 +1,4 @@
-// ABOUTME: Services page with light/cream theme showing Ciridae's AI transformation offerings
+// ABOUTME: Services page with light/cream theme showing Runbit Labs AI transformation offerings
 // ABOUTME: Sections: header with hero, service items, process steps, blog, testimonials, careers, footer
 
 import type { Metadata } from "next";
@@ -7,10 +7,10 @@ import { FooterSection } from "@/components/FooterSection";
 import { BlogSection } from "@/components/BlogSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { CareersSection } from "@/components/CareersSection";
-import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
+import { RunbitLogoIcon, RunbitWordmark } from "@/components/icons";
 
 export const metadata: Metadata = {
-  title: "Services — Ciridae",
+  title: "Services — Runbit Labs",
   description: "We embed in your team to design custom AI systems.",
 };
 
@@ -83,8 +83,8 @@ export default function ServicesPage() {
         {/* Header */}
         <section className="pt-[140px] pb-[80px]">
           <div className="flex flex-col items-center">
-            <CiridaeLogoIcon className="w-[60px] h-auto text-black" />
-            <CiridaeWordmark className="w-[100px] h-auto text-black mt-3" />
+            <RunbitLogoIcon className="w-[60px] h-auto text-black" />
+            <RunbitWordmark className="w-[100px] h-auto text-black mt-3" />
           </div>
 
           <p className="font-mono text-[11px] uppercase tracking-[0.1em] text-black/50 text-center mt-12">

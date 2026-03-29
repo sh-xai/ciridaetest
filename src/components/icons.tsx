@@ -1,11 +1,11 @@
-// ABOUTME: Ciridae SVG icons extracted from ciridae.com
+// ABOUTME: Runbit Labs SVG icons extracted from runbitlabs.com
 // ABOUTME: Contains logo icon (star), wordmark, and UI icons
 
 import { type SVGProps } from "react";
 
 type IconProps = SVGProps<SVGSVGElement>;
 
-export function CiridaeLogoIcon({ className, ...props }: IconProps) {
+export function RunbitLogoIcon({ className, ...props }: IconProps) {
   return (
     <svg
       viewBox="0 0 1000 1000"
@@ -26,21 +26,25 @@ export function CiridaeLogoIcon({ className, ...props }: IconProps) {
   );
 }
 
-export function CiridaeWordmark({ className, ...props }: IconProps) {
+export function RunbitWordmark({ className, ...props }: IconProps) {
   return (
     <svg
-      viewBox="0 0 136 20"
+      viewBox="0 0 200 24"
       fill="currentColor"
       className={className}
       {...props}
     >
-      <path d="M0.925781 10.3626C0.925781 4.85665 4.56026 0.726563 9.57057 0.726563L20.9696 0.726563V4.58045L11.4988 4.58045C9.54475 4.58045 8.44254 5.68267 8.44254 7.63672L8.44254 13.0884C8.44254 15.0167 9.54475 16.1447 11.4988 16.1447L20.9696 16.1447V19.9986L9.57057 19.9986C4.56026 19.9986 0.925781 15.8685 0.925781 10.3626Z" />
-      <path d="M23.6406 0.726562L30.525 0.726563L30.525 19.9986H23.6406L23.6406 0.726562Z" />
-      <path d="M33.5547 0.726562L50.075 0.726563C53.4333 0.726563 55.8855 3.09361 55.8855 6.28927C55.8855 9.48492 53.4359 11.852 50.075 11.852H48.534L56.2443 20.0012H47.6254L40.3564 11.63V20.0012H33.5547V0.729146V0.726562ZM40.3564 4.27844V9.15194H46.4147C47.8474 9.15194 48.645 8.40852 48.645 7.11529V6.31766C48.645 5.05024 47.8474 4.28102 46.4147 4.28102L40.3564 4.28102V4.27844Z" />
-      <path d="M57.9766 0.726562L64.861 0.726563V19.9986H57.9766V0.726562Z" />
-      <path d="M67.8828 0.726562L78.334 0.726563C83.3443 0.726563 86.9788 4.85665 86.9788 10.3626C86.9788 15.8685 83.3443 19.9986 78.334 19.9986H67.8828V0.726562ZM74.7672 4.55464V16.1705L76.4058 16.1705C78.3599 16.1705 79.4621 15.0683 79.4621 13.1142V7.63672C79.4621 5.68267 78.3599 4.58045 76.4058 4.58045L74.7672 4.58045V4.55464Z" />
-      <path d="M95.3516 0.726562L103.436 0.726563L111.598 19.9986H104.257L103.075 16.8287H95.6354L94.4531 19.9986H87.1895L95.3516 0.726562ZM101.629 13.3976L99.3557 7.08948L97.0824 13.3976H101.629Z" />
-      <path d="M113.453 0.726562L135.049 0.726563V4.58045L120.338 4.58045V8.38271H131.441V12.2366H120.338V16.1447L135.049 16.1447V19.9986L113.453 19.9986V0.726562Z" />
+      <text
+        x="100"
+        y="18"
+        textAnchor="middle"
+        fontFamily="'Pragmatica Cond', Arial, sans-serif"
+        fontWeight="700"
+        fontSize="22"
+        letterSpacing="4"
+      >
+        RUNBIT
+      </text>
     </svg>
   );
 }
