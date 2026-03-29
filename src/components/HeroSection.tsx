@@ -1,6 +1,9 @@
 // ABOUTME: Full-viewport hero section with video background, centered logo, and taglines
 // ABOUTME: Three-column grid with "AUTOMATE THE MUNDANE" left, logo center, "ACCELERATE THE REMARKABLE" right
 
+"use client";
+
+import { useRef, useEffect } from "react";
 import { CiridaeLogoIcon, CiridaeWordmark } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
@@ -9,11 +12,21 @@ interface HeroSectionProps {
 }
 
 export function HeroSection({ className }: HeroSectionProps) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.play().catch(() => {});
+    }
+  }, []);
+
   return (
     <section className={cn("relative h-screen overflow-hidden", className)}>
       {/* Background video */}
       <div className="absolute inset-0 z-0">
         <video
+          ref={videoRef}
           autoPlay
           loop
           muted
